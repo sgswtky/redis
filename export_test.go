@@ -5,8 +5,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/go-redis/redis/internal/hashtag"
-	"github.com/go-redis/redis/internal/pool"
+	"github.com/sgswtky/redis/internal/hashtag"
+	"github.com/sgswtky/redis/internal/pool"
 )
 
 func (c *baseClient) Pool() pool.Pooler {
